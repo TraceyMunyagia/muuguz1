@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254772773044",
+    "project_id": "muuguzi-app",
+    "storage_bucket": "muuguzi-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254772773044:android:fbc2232af5759faa94d7e1",
+        "android_client_info": {
+          "package_name": "com.example.muuguzi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0m7xoyxow7qMl7dz2m6maFXTPKkkS4qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
