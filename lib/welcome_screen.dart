@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'signup.dart';
 import 'login.dart';
 
 class Welcome extends StatelessWidget {
@@ -11,7 +12,7 @@ class Welcome extends StatelessWidget {
         child:Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Image(image:AssetImage('assets/images/splash-screen.jpg')),
+            Image(image:AssetImage('assets/images/screen2.png')),
             Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -42,7 +43,10 @@ class Welcome extends StatelessWidget {
               const SizedBox(width: 10.0),
               Expanded(
                 child:OutlinedButton(
-                  onPressed: () {}, 
+                  onPressed: () {
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Signup()));
+
+                  }, 
                    style: OutlinedButton.styleFrom(
                   backgroundColor: Colors.blueAccent,
                 ),

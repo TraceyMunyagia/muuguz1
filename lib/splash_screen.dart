@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child:AnimatedOpacity(
               opacity: animate ? 1:0,
               duration: const Duration(milliseconds: 1000),
-              child: Image(image: AssetImage('assets/images/splash-screen.jpg')),
+              child: Image(image: AssetImage('assets/images/screen2.png')),
             ), 
             ),  
           ],
@@ -42,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Future startAnimation()async{  
     await Future.delayed( Duration(milliseconds: 500));
     setState(() => animate = true);
-     await Future.delayed( Duration(milliseconds: 3000));
+     await Future.delayed( Duration(milliseconds: 2500));
      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Welcome()));
 
   }
